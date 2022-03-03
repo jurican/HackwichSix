@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 //Part 7
                     //Part 8.2
     var myFriendsArray = ["Jamise", "Joseph", "Eric", "Jose", "Andre", "Shamar"]
+    var myFriendsHomeArray = ["Makakilo", "Killeen", "Queens", "Brooklyn", "Temple", "Pearl City"]
     //var myTravelArray = ["Morocco", "Luna", "Antartica", "Mars", "Orbit"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
@@ -29,6 +30,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //let text = myTravelArray[indexPath.row]
         let text = myFriendsArray[indexPath.row]
         cell.textLabel?.text = text
+        cell.detailTextLabel?.text = myFriendsHomeArray[indexPath.row]
         return cell
     }
     
