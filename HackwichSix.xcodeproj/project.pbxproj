@@ -13,6 +13,8 @@
 		A84CA9A727D0916300B1BB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84CA9A527D0916300B1BB1C /* Main.storyboard */; };
 		A84CA9A927D0916400B1BB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84CA9A827D0916400B1BB1C /* Assets.xcassets */; };
 		A84CA9AC27D0916400B1BB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84CA9AA27D0916400B1BB1C /* LaunchScreen.storyboard */; };
+		A8D283A027EC104800443F2B /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8D2839F27EC104800443F2B /* Property List.plist */; };
+		A8D283A627EC21D300443F2B /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D283A527EC21D300443F2B /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A84CA9A827D0916400B1BB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A84CA9AB27D0916400B1BB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A84CA9AD27D0916400B1BB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D2839F27EC104800443F2B /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		A8D283A527EC21D300443F2B /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +64,11 @@
 				A84CA9A127D0916300B1BB1C /* SceneDelegate.swift */,
 				A84CA9A327D0916300B1BB1C /* ViewController.swift */,
 				A84CA9A527D0916300B1BB1C /* Main.storyboard */,
+				A8D2839F27EC104800443F2B /* Property List.plist */,
 				A84CA9A827D0916400B1BB1C /* Assets.xcassets */,
 				A84CA9AA27D0916400B1BB1C /* LaunchScreen.storyboard */,
 				A84CA9AD27D0916400B1BB1C /* Info.plist */,
+				A8D283A527EC21D300443F2B /* detailViewController.swift */,
 			);
 			path = HackwichSix;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				A84CA9AC27D0916400B1BB1C /* LaunchScreen.storyboard in Resources */,
 				A84CA9A927D0916400B1BB1C /* Assets.xcassets in Resources */,
+				A8D283A027EC104800443F2B /* Property List.plist in Resources */,
 				A84CA9A727D0916300B1BB1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 				A84CA9A427D0916300B1BB1C /* ViewController.swift in Sources */,
 				A84CA9A027D0916300B1BB1C /* AppDelegate.swift in Sources */,
 				A84CA9A227D0916300B1BB1C /* SceneDelegate.swift in Sources */,
+				A8D283A627EC21D300443F2B /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
