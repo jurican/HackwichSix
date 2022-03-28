@@ -68,4 +68,5 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     //var myTravelArray = ["Morocco", "Luna", "Antartica", "Mars", "Orbit"]
     //Restaurant Image Data
     var restaurantImageData = [String]()
+var didntLoadToGitHub = ["forcing update maybe"]
   
